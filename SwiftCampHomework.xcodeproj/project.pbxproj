@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EC5C541C206C880050BFA2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC5C531C206C880050BFA2 /* MainTableViewController.swift */; };
+		04EC5C561C2072D90050BFA2 /* Homework2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC5C551C2072D90050BFA2 /* Homework2ViewController.swift */; };
 		04F98E941C1A63970094F975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F98E931C1A63970094F975 /* AppDelegate.swift */; };
-		04F98E961C1A63970094F975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F98E951C1A63970094F975 /* ViewController.swift */; };
+		04F98E961C1A63970094F975 /* Homework1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F98E951C1A63970094F975 /* Homework1ViewController.swift */; };
 		04F98E991C1A63970094F975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F98E971C1A63970094F975 /* Main.storyboard */; };
 		04F98E9B1C1A63970094F975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F98E9A1C1A63970094F975 /* Assets.xcassets */; };
 		04F98E9E1C1A63970094F975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F98E9C1C1A63970094F975 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04EC5C531C206C880050BFA2 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		04EC5C551C2072D90050BFA2 /* Homework2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homework2ViewController.swift; sourceTree = "<group>"; };
 		04F98E901C1A63970094F975 /* SwiftCampHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCampHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F98E931C1A63970094F975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F98E951C1A63970094F975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F98E951C1A63970094F975 /* Homework1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework1ViewController.swift; sourceTree = "<group>"; };
 		04F98E981C1A63970094F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F98E9A1C1A63970094F975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F98E9D1C1A63970094F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				04F98E931C1A63970094F975 /* AppDelegate.swift */,
-				04F98E951C1A63970094F975 /* ViewController.swift */,
 				04F98E971C1A63970094F975 /* Main.storyboard */,
 				04F98E9A1C1A63970094F975 /* Assets.xcassets */,
 				04F98E9C1C1A63970094F975 /* LaunchScreen.storyboard */,
 				04F98E9F1C1A63970094F975 /* Info.plist */,
+				04EC5C531C206C880050BFA2 /* MainTableViewController.swift */,
+				04F98E951C1A63970094F975 /* Homework1ViewController.swift */,
+				04EC5C551C2072D90050BFA2 /* Homework2ViewController.swift */,
 			);
 			path = SwiftCampHomework;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F98E961C1A63970094F975 /* ViewController.swift in Sources */,
+				04F98E961C1A63970094F975 /* Homework1ViewController.swift in Sources */,
+				04EC5C561C2072D90050BFA2 /* Homework2ViewController.swift in Sources */,
+				04EC5C541C206C880050BFA2 /* MainTableViewController.swift in Sources */,
 				04F98E941C1A63970094F975 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				04F98EA41C1A63970094F975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
