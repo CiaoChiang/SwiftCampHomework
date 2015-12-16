@@ -1,2 +1,5 @@
 # SwiftCampHomework
-### 12/15 Updated Homework 2
+## Release Note
+| Date | Note |
+|------|-----:|
+|12/15| Added Homework 2|
